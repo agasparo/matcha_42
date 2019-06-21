@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="lecteur/css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="player__container">
+    <div class="player__body">
+      <div class="body__cover">
+        <div id="res_search">pp</div>
+      	<div id="list_front" class="body__cover">
+	        <ul class="list list--cover">
+	          <li>
+	            <a class="list__link" href="#" id="list_musique"><i class="fa fa-navicon"></i></a>
+	          </li>
+
+	          <li>
+	            <a class="list__link" href=""></a>
+	          </li>
+
+	          <li>
+	          	<input type="text" id="search_vid">
+	            <a class="list__link" href="#" id="serach_a_video"><i class="fa fa-search"></i></a>
+	          </li>
+	        </ul>
+	        <img src="" alt="Album cover" id='img_player'/>
+	        
+	        <div class="range" id="barre"></div>
+        </div>
+        <div id="load_musique" class="body__cover"></div>
+      </div>
+      
+      <div class="body__info">
+        <div class="info__album">Album - Iconnu</div>
+
+        <div class="info__song" id="name_song">Titre - Inconnu</div>
+
+        <div class="info__artist" id="artist">Artiste - Inconnu</div>
+      </div>
+
+      <div class="body__buttons">
+        <ul class="list list--buttons">
+          <li id="precedent"><a href="#" class="list__link"><i class="fa fa-step-backward"></i></a></li>
+
+          <li id="play_m"><a href="#" class="list__link"><i class="fa fa-play"></i></a></li>
+
+          <li id="pause" class="not"><a href="#" class="list__link"><i class="fa fa-pause"></i></a></li>
+
+          <li id="next_m" ><a href="#" class="list__link"><i class="fa fa-step-forward"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <input type="range" id="sound">
+
+    <div class="player__footer">
+      <ul class="list list--footer">
+        <li><a href="#" class="list__link"><i class="fa fa-volume-up" id="vol"></i></a></li>
+        
+        <li></li>
+        
+        <li></li>
+        
+        <li><a href="#" class="list__link"><i class="fa fa-ellipsis-h"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="ytplayer"></div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="lecteur/js/lecteur.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+</html>

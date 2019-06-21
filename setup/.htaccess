@@ -1,0 +1,4 @@
+AuthName "Contenu securiser"
+AuthType Basic
+AuthUserFile "/opt/lampp/htdocs/www/matcha/setup/.htpasswd"
+Require valid-user
