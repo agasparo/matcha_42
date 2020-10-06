@@ -13,6 +13,7 @@ Music panel (bonus) :
 ![Alt text](photo_g/music_1.png?raw=true)
 
 Music list (bonus) :
+
 ![Alt text](photo_g/music_2.png?raw=true)
 
 Params page :
