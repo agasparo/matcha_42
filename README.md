@@ -1,5 +1,27 @@
+Matcha projet de site de rencontre.
+
 dans ce projet des apis sont utilisees, pour les faires fonctionnees veullez mettre vos api keys et password
 Mettre aussi vos informations sur votres mail dans le dossier mail
+
+Home page (non connecte) :
+![Alt text](photo_g/home_1.png?raw=true)
+
+Home page (connecte) :
+![Alt text](photo_g/home_2.png?raw=true)
+
+Music panel (bonus) :
+![Alt text](photo_g/music_1.png?raw=true)
+
+Music list (bonus) :
+![Alt text](photo_g/music_2.png?raw=true)
+
+Params page :
+![Alt text](photo_g/params.png?raw=true)
+
+Search page :
+![Alt text](photo_g/recherche_1.png?raw=true)
+![Alt text](photo_g/recherche2.png?raw=true)
+
 
 Bonus matcha : 
 
